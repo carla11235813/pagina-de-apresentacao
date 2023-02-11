@@ -17,7 +17,7 @@ section {
 header {
     width: 100%; /*A largura do header vai ocupar 100% da tela*/
     height: 600px; /*O header vai ter uma altura de 600px*/
-    background-image: url("img-de-fundo-header.jpg"); /*COLOQUEI UMA IMAGEM COMO FUNDO DO CABEÇÁRIO*/
+    background-image: url("https://github.com/carla11235813/trabalho-escola/blob/main/img-de-fundo-header.jpg?raw=true"); /*COLOQUEI UMA IMAGEM COMO FUNDO DO CABEÇÁRIO*/
     background-repeat: no-repeat; /*TIREI TODA REPETIÇÃO DA IMAGEM*/
     background-position: center center; /*A POSIÇÃO DA IMAGEM VAI SER CENTRALIZADO NA HORIZONTAL E VERTICAL*/
     background-size: cover;

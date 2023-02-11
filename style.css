@@ -1,0 +1,105 @@
+/*AS CONFIGURAÇÕES QUE ESTIVEREM NESSE * VAI SERVIR PARA TODA A PÁGINA*/
+* {
+    font-family: Arial, Helvetica, sans-serif; 
+    padding: 0;
+    margin: 0;
+}
+
+/*CONFIIGURAÇÕES PRA TOAS AS SECTIONS*/
+section {
+    padding: 60px 0; /*ESPAÇAMENTO INTERNO DE 60 PIXELS EM CIMA E EMBAIXO, E 0 PIXELS NA DIREITA E ESQUERDA*/
+    max-width: 1000px; /*LARGURA MÁXIMA DE CADA SECTION VAI SER DE 1000Pixels*/
+    margin: auto; /*ESPAÇAMENTO EXTERNO AUTO VAI DEIXAR A SECTION CENTRALIZADA*/
+}
+
+
+/*-----------------CABEÇÁRIO-----------------*/
+header {
+    width: 100%; /*A largura do header vai ocupar 100% da tela*/
+    height: 600px; /*O header vai ter uma altura de 600px*/
+    background-image: url("img-de-fundo-header.jpg"); /*COLOQUEI UMA IMAGEM COMO FUNDO DO CABEÇÁRIO*/
+    background-repeat: no-repeat; /*TIREI TODA REPETIÇÃO DA IMAGEM*/
+    background-position: center center; /*A POSIÇÃO DA IMAGEM VAI SER CENTRALIZADO NA HORIZONTAL E VERTICAL*/
+    background-size: cover;
+    background-attachment: fixed; /*PARA CAUSAR UM EFEITO PARALAX NA IMAGEM*/
+}
+
+nav {
+    text-align: right; /*TODOS OS LINKS QUE ESTÃO NO "nav" VÃO ESTÁ POSICIONADOS A DIREIRA*/
+    padding: 30px 50px; /*O ESPAÇAMENTO INTERNO DE 30 Pixels PARA CIMA E BAIXO, 50 Pixels PARA ESQUERDA E DIREITA*/
+}
+
+nav a {
+    color: white; /*COR DA LETRA*/
+    font-weight: 500; /* ESPESSURA DA LETRA, QUANTO MAIOR ESSSE NÚMERO MAIOR A ESPESSURA*/
+    text-decoration: none; /*REMOVE UMA LINHA SUBLINHADA QUE FICA DEBAIXO DE TODO LINK*/
+    margin-right: 30px; /*ESPAÇAMENTO EXTERNO DA DIREITA DE 30 pixels*/
+    font-size: 20px; /*TAMANHO DA LETRA*/
+}
+
+nav a:hover { /*hover é usado quando passamos o cursor do mouse por cima de algum elemento na página html, e com isso aplicamos estilos sobre ele.*/
+    text-decoration: underline; /*QUANDO PASSARMOS O CURSOR POR CIMA DE UM LINK ELE VAI TER UM SUBLINHADO*/
+}
+
+header .textos-header {
+    display: flex; /*DISPLAY FLEX DEIXA OS BLOCOS MAIS FLEXIVEIS DE MODELAR*/
+    height: 420px; /*TODO O CONTEÚDO DE textos-header VAI TER ALTURA DE 420 PIXELS*/
+    width: 100%; /*A LARGURA VAI OCUPAR 100% DA TELA*/
+    align-items: center; /*POSIÇÃO VERTICAL NO CENTRO*/
+    justify-content: center;  /*POSIÇÃO HORIZONTAL NO CENTRO*/
+    flex-direction: column;  /*OS TEXTOS VÃO ESTAR ORGANIZADOS EM COLUNAS*/
+    text-align: center; /*OS TEXTOS VÃO FICAR CENTRALIZADOS*/
+}
+
+.textos-header h1 {
+    font-size: 60px; /*TAMANHO DO TEXTO*/
+    color: #fff; /*COR DO TEXTO*/
+}
+
+.textos-header h2 {
+    font-size: 40px; /*TAMANHO DO TEXTO*/
+    font-weight: 300; /*ESPESSURA DO TEXTO*/
+    color: #fff; /*COR DO TEXTO*/
+}
+
+
+.onda {
+    position: absolute; /*POSIÇAO ABSOLUTA DEIXA A ONDA SOBREPOSTA A IMAGEM DE FUNDO*/
+    bottom: 0; /*DEIXA A ONDA LÁ EMBAIXO DA TELA*/
+    width: 100%; /*A ONDA VAI TER UMA LARGURA QUE OCUPA 100% DA TELA*/
+}
+
+
+/*-----------------SOBRE NÓS-----------------*/
+
+#sobre {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.carla {
+    width: 300px;
+    background-color: #ABDAFC;
+    padding: 30px;
+}
+
+.andressa {
+    width: 300px;
+    background-color: #ACACDE;
+    padding: 30px;
+}
+
+.texto {
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+#sobre div img {
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+}

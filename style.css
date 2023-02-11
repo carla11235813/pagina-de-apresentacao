@@ -5,11 +5,24 @@
     margin: 0;
 }
 
-/*CONFIIGURAÇÕES PRA TOAS AS SECTIONS*/
-section {
+/*CONFIIGURAÇÕES PRA TODOS OS CONTAINERS*/
+.container {
     padding: 60px 0; /*ESPAÇAMENTO INTERNO DE 60 PIXELS EM CIMA E EMBAIXO, E 0 PIXELS NA DIREITA E ESQUERDA*/
     max-width: 1000px; /*LARGURA MÁXIMA DE CADA SECTION VAI SER DE 1000Pixels*/
     margin: auto; /*ESPAÇAMENTO EXTERNO AUTO VAI DEIXAR A SECTION CENTRALIZADA*/
+}
+
+/*CONFIIGURAÇÕES PRA TODAS AS SECTIONS*/
+section {
+    padding: 54px 0;
+}
+
+/*CONFIGURAÇÕES PARA ODOS DA TAG titulo*/
+.titulo {
+    color: #642a73;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 60px;
 }
 
 
@@ -72,7 +85,7 @@ header .textos-header {
 
 /*-----------------SOBRE NÓS-----------------*/
 
-#sobre {
+.cards {
     display: flex;
     justify-content: space-between;
 }
@@ -82,12 +95,15 @@ header .textos-header {
     width: 300px;
     background-color: #ABDAFC;
     padding: 30px;
+    border-radius: 15px;
 }
 
 .andressa {
     width: 300px;
     background-color: #ACACDE;
     padding: 30px;
+    border-radius: 15px;
+
 }
 
 .texto {

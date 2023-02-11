@@ -122,3 +122,15 @@ header .textos-header {
     border: 2px solid black;
     border-radius: 50%;
 }
+
+
+
+/*-----------------HOBBIES-----------------*/
+
+#hobbies {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right, #E1DEE3, #ACACDE, #DEC3BE, #ABDAFC);
+    background-position: center center;
+    background-size: cover;
+}

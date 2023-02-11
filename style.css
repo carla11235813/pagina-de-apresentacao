@@ -12,6 +12,8 @@
     margin: auto; /*ESPAÇAMENTO EXTERNO AUTO VAI DEIXAR O CONTAINER CENTRALIZADO*/
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+
 }
 
 /*CONFIIGURAÇÕES PRA TODAS AS SECTIONS*/
@@ -90,7 +92,6 @@ header .textos-header {
 
 .cards {
     display: flex;
-    justify-content: space-evenly;
 }
 
 

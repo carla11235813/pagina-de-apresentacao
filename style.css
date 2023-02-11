@@ -27,6 +27,11 @@ section {
     margin-bottom: 60px;
 }
 
+body {
+    overflow-x: hidden;
+
+}
+
 
 /*-----------------CABEÇÁRIO-----------------*/
 header {
@@ -133,4 +138,33 @@ header .textos-header {
     background: linear-gradient(to right, #E1DEE3, #ACACDE, #DEC3BE, #ABDAFC);
     background-position: center center;
     background-size: cover;
+}
+
+
+/*-----------------TRABALHOS ESCOLARES-----------------*/
+#trabalhos {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+/*-----------------EXTENSÕES-----------------*/
+#extensoes {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right, #E1DEE3, #DEC3BE, #DDD1C7, #858AE3);
+}
+
+
+/*-----------------RODAPÉ-----------------*/
+footer {
+    background-color: #613DC1;
+    padding: 30px;
+}
+
+footer p {
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
 }

@@ -95,7 +95,7 @@ header .textos-header {
 
 .cards {
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 
@@ -104,6 +104,8 @@ header .textos-header {
     background-color: #ABDAFC;
     padding: 30px;
     border-radius: 15px;
+    flex: 1 1 300px;
+    margin: 30px;
 }
 
 .andressa {
@@ -111,7 +113,8 @@ header .textos-header {
     background-color: #ACACDE;
     padding: 30px;
     border-radius: 15px;
-
+    flex: 1 1 300px;
+    margin: 30px;
 }
 
 .texto {

@@ -59,7 +59,7 @@ nav a {
     font-weight: 500; /* ESPESSURA DA LETRA, QUANTO MAIOR ESSSE NÚMERO MAIOR A ESPESSURA*/
     text-decoration: none; /*REMOVE UMA LINHA SUBLINHADA QUE FICA DEBAIXO DE TODO LINK*/
     margin-right: 30px; /*ESPAÇAMENTO EXTERNO DA DIREITA DE 30 pixels*/
-    font-size: 20px; /*TAMANHO DA LETRA*/
+    font-size: 25px; /*TAMANHO DA LETRA*/
 }
 
 nav a:hover { /*hover é usado quando passamos o cursor do mouse por cima de algum elemento na página html, e com isso aplicamos estilos sobre ele.*/
@@ -76,6 +76,8 @@ header .textos-header {
     text-align: center; /*OS TEXTOS VÃO FICAR CENTRALIZADOS*/
 }
 
+
+
 .textos-header h1 {
     font-size: 60px; /*TAMANHO DO TEXTO*/
     color: #fff; /*COR DO TEXTO*/
@@ -86,14 +88,6 @@ header .textos-header {
     font-weight: 300; /*ESPESSURA DO TEXTO*/
     color: #fff; /*COR DO TEXTO*/
 }
-
-
-.onda {
-    position: absolute; /*POSIÇAO ABSOLUTA DEIXA A ONDA SOBREPOSTA A IMAGEM DE FUNDO*/
-    bottom: 0; /*DEIXA A ONDA LÁ EMBAIXO DA TELA*/
-    width: 100%; /*A ONDA VAI TER UMA LARGURA QUE OCUPA 100% DA TELA*/
-}
-
 
 /*-----------------SOBRE NÓS-----------------*/
 
@@ -161,9 +155,48 @@ header .textos-header {
 /*-----------------EXTENSÕES-----------------*/
 #extensoes {
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     background: linear-gradient(to right, #E1DEE3, #DEC3BE, #DDD1C7, #858AE3);
 }
+
+/*------------------------------------------------*/
+
+
+.cont-ideia {
+    margin: 0 50px;
+
+    background-color: #858ae32b;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.205);
+}
+
+.cont-ideia > ul {
+    list-style-type: '\2714\00A0\00A0'; /*Não é compatível com todo tipo de navegador*/
+    list-style-position: inside;
+    columns: 2;
+}
+
+.cont-ideia ul li {
+    margin: 20px;
+}
+
+.cont-ideia {
+    font-size: 20px;
+}
+
+a {
+    color: #642a73;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/*------------------------------------------------*/
+
+
 
 
 /*-----------------RODAPÉ-----------------*/

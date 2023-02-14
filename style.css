@@ -117,6 +117,7 @@ header .textos-header {
 }
 
 .texto {
+    line-height: 30px;
     text-align: justify;
     text-indent: 20px;
     font-size: 20px;
@@ -145,9 +146,12 @@ header .textos-header {
 .hobs {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+
 }
 
 .hob {
+    margin: 0 10px;
     width: 600px;
     background: #95bdda4a;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.205);
@@ -157,9 +161,20 @@ header .textos-header {
 
 }
 
+.hob-div {
+    display: flex;
+}
+
+.hob-div p {
+    padding: 20px;
+    font-size: 20px;
+
+}
 .hob img {
     width: 230px;
 }
+
+
 
 /*-----------------TRABALHOS ESCOLARES-----------------*/
 #trabalhos {

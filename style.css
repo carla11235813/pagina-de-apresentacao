@@ -163,7 +163,9 @@ header .textos-header {
 
 
 .cont-ideia {
+    display: flex;
     margin: 0 50px;
+    flex-wrap: wrap;
 
     background-color: #858ae32b;
     padding: 30px;
@@ -172,9 +174,9 @@ header .textos-header {
 }
 
 .cont-ideia > ul {
+    flex: 1 1 300px;
     list-style-type: '\2714\00A0\00A0'; /*Não é compatível com todo tipo de navegador*/
     list-style-position: inside;
-    columns: 2;
 }
 
 .cont-ideia ul li {

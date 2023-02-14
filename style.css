@@ -137,12 +137,29 @@ header .textos-header {
 
 #hobbies {
     width: 100vw;
-    height: 100vh;
     background: linear-gradient(to right, #E1DEE3, #ACACDE, #DEC3BE, #ABDAFC);
     background-position: center center;
     background-size: cover;
 }
 
+.hobs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hob {
+    width: 600px;
+    background: #95bdda4a;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.205);
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1 1 300px;
+
+}
+
+.hob img {
+    width: 230px;
+}
 
 /*-----------------TRABALHOS ESCOLARES-----------------*/
 #trabalhos {

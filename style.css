@@ -148,6 +148,7 @@ header .textos-header {
 
 #hobbies {
     width: 100vw;
+    height: 100%;
     background-image: url('imagens/img-fundo3.jpg');
     background-position: center center;
     background-size: cover;
@@ -200,16 +201,46 @@ header .textos-header {
 /*-----------------TRABALHOS ESCOLARES-----------------*/
 #trabalhos {
     width: 100vw;
-    height: 100vh;
+    height: 100%;
 }
 
+.trabs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.trab {
+    margin: 10px 30px;
+    width: 300px;
+    height: 300px;
+    background: #A7C6DA;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.205);
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1 1 300px;  
+    font-size: 23px;
+}
+
+.trab ul {
+    list-style-position: inside;
+}
+
+.trab ul li{
+    margin-top: 50px;
+}
+
+.trab ul li a {
+    color: #0D1321;
+    font-weight: 600;
+    
+}
 
 
 /*-----------------EXTENSÕES-----------------*/
 #extensoes {
     width: 100vw;
     height: 100%;
-    background-image: url('imagens/img-fundo4.jpg');
+    background-image: url('imagens/img-fundo6.jpg');
     background-position: center center;
 }
 
@@ -246,11 +277,10 @@ header .textos-header {
     color: lightgray;
 }
 
-a {
+ a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
-    text-shadow: 3px 3px rgba(0, 0, 0, 0.205);
 
 }
 
@@ -264,12 +294,55 @@ a:hover {
 
 /*-----------------RODAPÉ-----------------*/
 footer {
-    background-color: #613DC1;
+    background-color: #A7C6DA;
     padding: 30px;
 }
 
 footer p {
     text-align: center;
-    color: #fff;
+    color: #0D1321;
     font-weight: 700;
+}
+
+footer a {
+    color: #1D3557;
+}
+
+footer a:hover {
+    color: #457B9D;
+}
+
+.footer-boxs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    flex-wrap: wrap;
+}
+
+.footer-box {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+    flex: 1 1 200px;
+}
+
+.footer-box h3 {
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-box p {
+    padding: 10px;
+}
+
+.footer-box a {
+    padding: 5px;
+    text-align: center;
+
+}
+
+.autores {
+    padding-top: 40px;
 }

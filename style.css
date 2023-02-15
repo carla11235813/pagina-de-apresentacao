@@ -21,7 +21,7 @@ section {
 
 /*CONFIGURAÇÕES PARA ODOS DA TAG titulo*/
 .titulo {
-    color: #642a73;
+    color: #231123;
     font-size: 40px;
     text-align: center;
     margin-bottom: 60px;
@@ -42,7 +42,7 @@ h3 {
 header {
     width: 100%; /*A largura do header vai ocupar 100% da tela*/
     height: 600px; /*O header vai ter uma altura de 600px*/
-    background-image: url("https://github.com/carla11235813/trabalho-escola/blob/main/imagens/img-de-fundo-header.jpg?raw=true"); /*COLOQUEI UMA IMAGEM COMO FUNDO DO CABEÇÁRIO*/
+    background-image: url("https://i.pinimg.com/originals/92/58/9e/92589e5f88eeb86c19482fc514efdbf8.gif"); /*COLOQUEI UMA IMAGEM COMO FUNDO DO CABEÇÁRIO*/
     background-repeat: no-repeat; /*TIREI TODA REPETIÇÃO DA IMAGEM*/
     background-position: center center; /*A POSIÇÃO DA IMAGEM VAI SER CENTRALIZADO NA HORIZONTAL E VERTICAL*/
     background-size: cover;
@@ -100,16 +100,24 @@ header .textos-header {
 
 .carla {
     width: 300px;
-    background-color: #ABDAFC;
+    background-color: #0D1321;
     padding: 30px;
     border-radius: 15px;
     flex: 1 1 300px;
     margin: 30px;
 }
 
+.carla p {
+    color: white;
+}
+
+.carla h3 {
+    color: white;
+}
+
 .andressa {
     width: 300px;
-    background-color: #ACACDE;
+    background-color: #A7C6DA;
     padding: 30px;
     border-radius: 15px;
     flex: 1 1 300px;
@@ -138,7 +146,7 @@ header .textos-header {
 
 #hobbies {
     width: 100vw;
-    background: linear-gradient(to right, #E1DEE3, #ACACDE, #DEC3BE, #ABDAFC);
+    background: linear-gradient(to right, #A7C6DA, #6C698D, #4665AF);
     background-position: center center;
     background-size: cover;
 }
@@ -151,23 +159,26 @@ header .textos-header {
 }
 
 .hob {
-    margin: 0 10px;
-    width: 600px;
+    margin: 10px 30px;
+    width: 400px;
     background: #95bdda4a;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.205);
     border-radius: 10px;
     padding: 20px;
-    flex: 1 1 300px;
+    flex: 1 400px;
 
 }
 
 .hob-div {
     display: flex;
+    align-items: center;
 }
 
 .hob-div p {
     padding: 20px;
-    font-size: 20px;
+    font-size: 25px;
+    color: #231123;
+    font-weight: 700;
 
 }
 .hob img {
